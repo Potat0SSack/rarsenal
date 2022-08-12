@@ -20,7 +20,7 @@ timer.Create("weaponSpawn", 17, 0,  function()
 
 	math.randomseed(os.time()) //i fucking hate .357 and the crossbow after this
 	local weapon = {1, 2, 3, 4, 5, 6, 7, 8}
-	local spawns = ents.FindByClass("info_player_start") //For those who want to modify this, just change info_player_start to whatever other entitity you want the game to spawn weapons on, some might not work like env_cubemap and info_node
+	local spawns = ents.FindByClass("prop_physics") //For those who want to modify this, just change prop_physics to whatever other entitity you want the game to spawn weapons on, some might not work like env_cubemap and info_node
 	local random_entry = math.random(#spawns)
 	local wpn = ents.Create("weapon_crowbar") //The game doesn't like it when i don't do this
 
