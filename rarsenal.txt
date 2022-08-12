@@ -1,0 +1,19 @@
+"rarsenal"
+{
+	"title"	"Rarsenal"
+	"base"	"base"
+    "category" "pvp"
+    "menusystem" "1"
+
+    "settings"
+    {
+        1
+        {
+            "name" "rar_rarweapons"
+            "text" "Rarsenal Weapons Enabled?"
+            "help" "If enabled, the custom Rarsenal weapons will be added to the rotation"
+            "type" "CheckBox"
+            "default" "1"
+        }
+    }
+}
